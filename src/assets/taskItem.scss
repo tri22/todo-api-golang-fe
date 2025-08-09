@@ -1,0 +1,15 @@
+.task-item-container {
+    width: 400px;
+    background: #fff;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.completed-task {
+    text-decoration: line-through;
+}
