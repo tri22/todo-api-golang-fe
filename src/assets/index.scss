@@ -1,10 +1,9 @@
 .task-container {
   width: 100%;
-  
-  margin: 0 auto; /* căn giữa */
-  padding: 0 15px; /* padding nhỏ 2 bên */
-  box-sizing: border-box; /* tránh tính padding + width vượt */
-  overflow-x: hidden; /* ẩn tràn ngang */
+  margin: 0 auto; 
+  padding: 0 15px; 
+  box-sizing: border-box; 
+  overflow-x: hidden; 
 
 
   .task-list-wrapper {

@@ -1,8 +1,9 @@
-/* Override media query mặc định của react-toastify */
+/* Override default media query react-toastify */
 @media only screen and (max-width: 480px) {
+    //smaller toast for mobile
   .Toastify__toast-container {
-    left: auto !important;   /* bỏ fixed bên trái */
-    right: 1rem !important;  /* sát phải */
+    left: auto !important;  
+    right: 1rem !important;  
     padding: 0 !important;
     width: auto !important;
     max-width: 70vw !important;
