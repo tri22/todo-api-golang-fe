@@ -1,8 +1,17 @@
-.task-list-wrapper {
+.task-container {
+  width: 100%;
+  
+  margin: 0 auto; /* căn giữa */
+  padding: 0 15px; /* padding nhỏ 2 bên */
+  box-sizing: border-box; /* tránh tính padding + width vượt */
+  overflow-x: hidden; /* ẩn tràn ngang */
+
+
+  .task-list-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+  }
 }
-.task-container{
-    min-width: 600px;
-}
+

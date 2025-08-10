@@ -1,15 +1,26 @@
 .task-item-container {
-    width: 400px;
+    width: 60%;
+
     background: #fff;
     padding: 10px 15px;
     margin-bottom: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
     cursor: pointer;
-    position: relative;
-}
 
-.completed-task {
-    text-decoration: line-through;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    // Responsive text size
+    @media (max-width: 480px) {
+        font-size: 14px;
+        padding: 8px 12px;
+        width: 90%;
+    }
+
+    .completed-task {
+        text-decoration: line-through;
+    }
+
 }

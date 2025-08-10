@@ -14,7 +14,7 @@ function App() {
           <Route path="/" element={<Home />} />
 
         </Routes>
-        <ToastContainer position="top-right" autoClose={2000} />
+        <ToastContainer position="top-right" autoClose={1000} />
       </>
     </Router>
   );

@@ -61,8 +61,8 @@ export default function Home() {
     }, [])
 
     return (
-        <Container className="border rounded p-3 mb-5 pb-5 task-container" >
-            <div className="d-flex justify-content-around align-items-center mb-5">
+        <Container  className="border rounded mb-5 pb-5 task-container">
+            <div className="d-flex justify-content-around align-items-center my-5">
                 <h3>My Tasks</h3>
                 <Button variant="outline-dark" type="submit" onClick={handleShowModal}>
                     Create Task
@@ -77,7 +77,7 @@ export default function Home() {
                     <p>There is no task</p>
                 )}
             </div>
-            <CreateForm show={showModal} handleCloseModal={handleCloseModal} handleCreate={handleCreateTask} />
+            <CreateForm show={showModal} handleCloseModal={handleCloseModal} handleCreateTask={handleCreateTask} />
         </Container>
     )
 }

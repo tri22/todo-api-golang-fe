@@ -1,7 +1,7 @@
 import { Button, Modal, Form } from 'react-bootstrap';
 import { toast } from 'react-toastify';
 import { useState } from 'react';
-
+import '../assets/createModal.scss'
 export default function CreateForm({ show, handleCloseModal, handleCreateTask }) {
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
@@ -26,7 +26,7 @@ export default function CreateForm({ show, handleCloseModal, handleCreateTask })
     };
 
     return (
-        <Modal show={show} onHide={handleCloseModal}>
+        <Modal show={show} onHide={handleCloseModal} className='modal-container mt-5 pt-5'>
             <Modal.Header closeButton>
                 <Modal.Title>Create New Task</Modal.Title>
             </Modal.Header>
